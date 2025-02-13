@@ -13,6 +13,7 @@ typedef struct {
     uint8_t* code;
 } Chunk;
 
-void initChunk(Chunk* c);
+void initChunk(Chunk* ch);
+void writeChunk(Chunk* ch, uint8_t byte);
 
 #endif
